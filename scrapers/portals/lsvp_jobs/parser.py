@@ -1,5 +1,6 @@
 from scrapers.core.utils.hash_utils import generate_link_hash
 from scrapers.core.utils.type_extractor import extract_employment_type, extract_job_type
+from scrapers.core.utils.schema_validator import validate_job
 
 class LSVPParser:
     @staticmethod
@@ -33,7 +34,7 @@ class LSVPParser:
         if not apply_url:
             return None
 
-        return {
+        return validate_job({
             "title": job.get("title"),
             "company": job.get("companyName"),
             "location": location,
@@ -47,4 +48,4 @@ class LSVPParser:
             "employment_type": extract_employment_type(None, f"{job.get('title', '')} {parsed_job_types}"),
             "job_status": "active",
             "search_keyword": search_keyword,
-        }
+        })

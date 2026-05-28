@@ -1,5 +1,6 @@
 import re
 from scrapers.core.utils.hash_utils import generate_job_hash 
+from scrapers.core.utils.schema_validator import validate_job
 
 
 class StartupJobsDetailScraper:
@@ -259,7 +260,7 @@ class StartupJobsDetailScraper:
                 job_data.get("company"),
                 job_data.get("location"),
 )
-            return job_data
+            return validate_job(job_data)
 
         except Exception as e:
             self.logger.error(f"Failed extracting:\n{link}\n{e}")

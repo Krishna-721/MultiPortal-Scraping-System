@@ -1,4 +1,5 @@
 from scrapers.core.utils.hash_utils import generate_link_hash
+from scrapers.core.utils.schema_validator import validate_job
 
 def parse_a16z_job(job):
 
@@ -107,7 +108,7 @@ def parse_a16z_job(job):
         if labels:
             job_type = ", ".join(labels)
  
-    return {
+    return validate_job({
         "title": title,
         "company": company,
         "location": location,
@@ -120,4 +121,4 @@ def parse_a16z_job(job):
         "employment_type": employment_type,
         "job_status": "active",
         "search_keyword": None,
-    }
+    })

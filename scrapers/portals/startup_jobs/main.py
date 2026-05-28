@@ -48,6 +48,8 @@ async def main():
             jobs = await scraper.fetch_jobs(
                 keyword=keyword,
                 max_jobs=MAX_JOBS_PER_KEYWORD,
+                existing_urls=existing_urls,
+                seen_urls=seen_urls,
             )
 
             scraper.logger.info(f"Fetched {len(jobs)} jobs for keyword: {keyword}")

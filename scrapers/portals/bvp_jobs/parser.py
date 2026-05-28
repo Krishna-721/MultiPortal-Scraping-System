@@ -7,6 +7,7 @@ from scrapers.core.utils.hash_utils import (
 from scrapers.core.utils.type_extractor import (
     extract_employment_type,
 )
+from scrapers.core.utils.schema_validator import validate_job
 
 def parse_job(job: Dict) -> Optional[Dict]:
 
@@ -79,7 +80,7 @@ def parse_job(job: Dict) -> Optional[Dict]:
         job.get("title", ""),
     )
 
-    return { 
+    return validate_job({ 
 
         "title": job.get("title"),
 
@@ -107,4 +108,4 @@ def parse_job(job: Dict) -> Optional[Dict]:
         "source": "bvp_jobs",
 
         "search_keyword": job.get("search_keyword"),
-    }
+    })

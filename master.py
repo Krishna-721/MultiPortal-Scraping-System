@@ -17,13 +17,20 @@ def run_scraper(module):
 
     print(f"\n ======== Running: {module} ======== \n")
 
-    result = subprocess.run(
-    ["python", "-m", module]
-)
+    try:
+        result = subprocess.run(
+            ["python", "-m", module]
+        )
+    except Exception as e:
+        print(f"{module} failed to start: {e}")
+        return False
 
     if result.returncode != 0:
 
-        print(f"{module} failed")
+        print(f"{module} failed with exit code {result.returncode}")
+        return False
+
+    return True
 
 
 

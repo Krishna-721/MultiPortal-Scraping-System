@@ -49,3 +49,7 @@ class JobModel:
     search_keyword: Optional[str] = None
 
 
+__all__ = [
+    "JOB_SCHEMA_COLUMNS",
+    "JobModel",
+]

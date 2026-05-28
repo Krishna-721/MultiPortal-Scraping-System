@@ -4,6 +4,7 @@ from scrapers.core.utils.type_extractor import (
     extract_employment_type,
     extract_job_type,
 )
+from scrapers.core.utils.schema_validator import validate_job
 
 
 def parse_job(job, search_keyword=None):
@@ -76,7 +77,7 @@ def parse_job(job, search_keyword=None):
         f"{title} {location}",
     )
 
-    return {
+    return validate_job({
         "title": title,
         "company": company,
         "location": location,
@@ -90,4 +91,4 @@ def parse_job(job, search_keyword=None):
         "work_auth": None,
         "job_status": "active",
         "search_keyword": search_keyword,
-    }
+    })

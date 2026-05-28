@@ -27,6 +27,9 @@ from scrapers.core.utils.url_manager import (
     URLManager,
 )
 
+from scrapers.core.utils.relevance_filter import (
+    is_relevant_job,
+)
 
 from scrapers.core.config.settings import MAX_JOBS_PER_KEYWORD, DETAIL_ENRICHMENT_LIMIT
 
@@ -84,6 +87,12 @@ class A16ZJobsScraper(BaseScraper):
                         parsed["search_keyword"] = keyword
                         
                     if not parsed:
+                        continue
+
+                    if not is_relevant_job(
+                        parsed.get("title"),
+                        keyword,
+                    ):
                         continue
 
                     link = parsed.get("link")

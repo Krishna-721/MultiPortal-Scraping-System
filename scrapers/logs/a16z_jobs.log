@@ -3553,3 +3553,177 @@ Call log:
 2026-05-28 18:30:50,461 | a16z_jobs | INFO | Processed: Senior Product Manager
 2026-05-28 18:30:50,576 | a16z_jobs | INFO | Saved 169 jobs
 2026-05-28 18:30:50,576 | a16z_jobs | INFO | Cleaning up a16z_jobs scraper
+2026-05-28 19:36:18,111 | a16z_jobs | INFO | a16z_jobs scraper started
+2026-05-28 19:36:18,111 | a16z_jobs | INFO | Initializing a16z_jobs scraper
+2026-05-28 19:36:20,141 | a16z_jobs | INFO | Browser initialized for a16z_jobs
+2026-05-28 19:36:20,142 | a16z_jobs | INFO | Searching: software engineer
+2026-05-28 19:36:28,568 | a16z_jobs | INFO | Processed: Staff Software Engineer, Quantitative Evaluations
+2026-05-28 19:36:33,420 | a16z_jobs | INFO | Processed: Senior Staff Software Engineer - Binary Log Data Replication
+2026-05-28 19:36:36,420 | a16z_jobs | INFO | Processed: Senior Wireless Software Engineer, National Security
+2026-05-28 19:36:38,943 | a16z_jobs | INFO | Processed: Software Engineer, Cyber Frontier
+2026-05-28 19:36:41,430 | a16z_jobs | INFO | Processed: Software Engineer, Backend
+2026-05-28 19:36:43,941 | a16z_jobs | INFO | Processed: Software Engineer — Integrations
+2026-05-28 19:36:46,992 | a16z_jobs | INFO | Processed: Senior Manufacturing Software Engineer
+2026-05-28 19:36:49,727 | a16z_jobs | INFO | Processed: Senior Software Engineer, Risk
+2026-05-28 19:36:54,233 | a16z_jobs | INFO | Processed: Graduate Programme 2027: Software Engineer (Android)
+2026-05-28 19:36:56,731 | a16z_jobs | INFO | Processed: Software Engineer
+2026-05-28 19:36:59,655 | a16z_jobs | INFO | Processed: Software Engineer (Dublin, Ireland)
+2026-05-28 19:37:02,361 | a16z_jobs | INFO | Processed: Software Engineer, Platform Infrastructure (Foundations)
+2026-05-28 19:37:05,096 | a16z_jobs | INFO | Processed: Forward Deployed Engineer - Software Engineer - Singapore
+2026-05-28 19:37:08,577 | a16z_jobs | INFO | Processed: Senior Software Engineer — Maps Routing
+2026-05-28 19:37:11,523 | a16z_jobs | INFO | Processed: Principal Software Engineer
+2026-05-28 19:37:14,459 | a16z_jobs | INFO | Processed: Senior Software Engineer, AI Platform
+2026-05-28 19:37:17,376 | a16z_jobs | INFO | Processed: Senior Software Engineer: Platform
+2026-05-28 19:37:20,097 | a16z_jobs | INFO | Processed: Software Engineer - Postgres Internals
+2026-05-28 19:37:24,913 | a16z_jobs | INFO | Processed: Staff Software Engineer (L6) - Partner Ecosystem
+2026-05-28 19:37:28,057 | a16z_jobs | INFO | Processed: Software Engineer, Growth
+2026-05-28 19:37:30,770 | a16z_jobs | INFO | Processed: Senior Software Engineer
+2026-05-28 19:37:33,555 | a16z_jobs | INFO | Processed: Full Stack Software Engineer
+2026-05-28 19:37:36,161 | a16z_jobs | INFO | Processed: Software Engineer - Fullstack, Core
+2026-05-28 19:37:38,945 | a16z_jobs | INFO | Processed: Software Engineer - Backend (Product)
+2026-05-28 19:37:41,761 | a16z_jobs | INFO | Processed: Senior Software Engineer - Python/Typescript
+2026-05-28 19:37:44,879 | a16z_jobs | INFO | Processed: Software Engineer IC-02
+2026-05-28 19:37:49,344 | a16z_jobs | INFO | Processed: Senior Software Engineer
+2026-05-28 19:37:52,045 | a16z_jobs | INFO | Processed: Senior/Staff Software Engineer - Platform & Infrastructure
+2026-05-28 19:37:56,295 | a16z_jobs | INFO | Processed: Software Engineer, Full Stack
+2026-05-28 19:37:59,035 | a16z_jobs | INFO | Processed: Staff/Senior Staff Embedded Software Engineer
+2026-05-28 19:38:01,896 | a16z_jobs | INFO | Processed: Lead Software Engineer - Autonomy/Physical AI
+2026-05-28 19:38:04,969 | a16z_jobs | INFO | Processed: Software Engineer IC4
+2026-05-28 19:38:07,658 | a16z_jobs | INFO | Processed: Senior Staff Software Engineer - Binary Log Data Replication
+2026-05-28 19:38:10,566 | a16z_jobs | INFO | Processed: Senior Mission Software Engineer
+2026-05-28 19:38:13,559 | a16z_jobs | INFO | Processed: Senior Production Software Engineer
+2026-05-28 19:38:16,610 | a16z_jobs | INFO | Processed: Software Engineer, Ad Formats
+2026-05-28 19:38:19,393 | a16z_jobs | INFO | Processed: Senior Software Engineer, Trust & Safety
+2026-05-28 19:38:22,122 | a16z_jobs | INFO | Processed: Staff Software Engineer, Fraud
+2026-05-28 19:38:24,895 | a16z_jobs | INFO | Processed: Senior Software Engineer, Fraud
+2026-05-28 19:38:27,722 | a16z_jobs | INFO | Processed: Staff Software Engineer, Trust & Safety
+2026-05-28 19:38:30,762 | a16z_jobs | INFO | Processed: Software Engineer, Ads Manager
+2026-05-28 19:38:33,979 | a16z_jobs | INFO | Processed: Staff Software Engineer, Risk
+2026-05-28 19:38:37,158 | a16z_jobs | INFO | Processed: Full-Stack Software Engineer, Compute Foundations
+2026-05-28 19:38:40,836 | a16z_jobs | INFO | Processed: Internship Programme 2027: Software Engineer (Java)
+2026-05-28 19:38:44,085 | a16z_jobs | INFO | Processed: Graduate Programme 2027: Software Engineer (Frontend)
+2026-05-28 19:38:47,675 | a16z_jobs | INFO | Processed: Internship Programme 2027: Software Engineer (Android)
+2026-05-28 19:38:51,047 | a16z_jobs | INFO | Processed: Internship Programme 2027: Software Engineer (Python)
+2026-05-28 19:38:54,394 | a16z_jobs | INFO | Processed: Internship Programme 2027: Software Engineer (Frontend)
+2026-05-28 19:38:57,918 | a16z_jobs | INFO | Processed: Graduate Programme 2027: Software Engineer (iOS)
+2026-05-28 19:39:01,350 | a16z_jobs | INFO | Processed: Graduate Programme 2027: Software Engineer (Java)
+2026-05-28 19:39:01,350 | a16z_jobs | INFO | Searching: data engineer
+2026-05-28 19:39:03,222 | a16z_jobs | INFO | Processed: Principal Data Engineer
+2026-05-28 19:39:03,223 | a16z_jobs | INFO | Processed: Staff Data Engineer
+2026-05-28 19:39:03,223 | a16z_jobs | INFO | Processed: Tech Lead Manager, Data Engineer
+2026-05-28 19:39:03,223 | a16z_jobs | INFO | Processed: Senior Data Engineer, Knowledge & Information
+2026-05-28 19:39:03,223 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,224 | a16z_jobs | INFO | Processed: Senior Data Engineer
+2026-05-28 19:39:03,224 | a16z_jobs | INFO | Processed: Senior Data Engineer, Core Experimentation
+2026-05-28 19:39:03,224 | a16z_jobs | INFO | Processed: Data Engineer, People Innovation Labs
+2026-05-28 19:39:03,224 | a16z_jobs | INFO | Processed: Senior Data Engineer, Sentinel (Pacific Time Zone)
+2026-05-28 19:39:03,224 | a16z_jobs | INFO | Processed: Product Data Engineer
+2026-05-28 19:39:03,224 | a16z_jobs | INFO | Processed: Senior Software Engineer, Data Engineering
+2026-05-28 19:39:03,225 | a16z_jobs | INFO | Processed: Senior Data Engineer, Data Foundations
+2026-05-28 19:39:03,225 | a16z_jobs | INFO | Processed: Product Data Engineer, Autonomous Airpower
+2026-05-28 19:39:03,225 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,225 | a16z_jobs | INFO | Processed: Senior Data Engineer - Data Engineering
+2026-05-28 19:39:03,225 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,226 | a16z_jobs | INFO | Processed: Senior Data Engineer
+2026-05-28 19:39:03,226 | a16z_jobs | INFO | Processed: GTM Data Engineer Intern
+2026-05-28 19:39:03,226 | a16z_jobs | INFO | Processed: Sr. Product Manager, Data Engineering
+2026-05-28 19:39:03,226 | a16z_jobs | INFO | Processed: Staff Data Engineer
+2026-05-28 19:39:03,226 | a16z_jobs | INFO | Processed: Data Engineer, Notifications
+2026-05-28 19:39:03,226 | a16z_jobs | INFO | Processed: Senior Data Engineer
+2026-05-28 19:39:03,226 | a16z_jobs | INFO | Processed: Senior Data Engineer - Real World Data
+2026-05-28 19:39:03,227 | a16z_jobs | INFO | Processed: Staff Data Engineer
+2026-05-28 19:39:03,227 | a16z_jobs | INFO | Processed: Senior Data Engineer
+2026-05-28 19:39:03,227 | a16z_jobs | INFO | Processed: Staff Data Engineer
+2026-05-28 19:39:03,227 | a16z_jobs | INFO | Processed: Head of Data Engineering
+2026-05-28 19:39:03,227 | a16z_jobs | INFO | Processed: Principal Data Engineer
+2026-05-28 19:39:03,228 | a16z_jobs | INFO | Processed: Senior Data Engineer - Healthcare
+2026-05-28 19:39:03,228 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,228 | a16z_jobs | INFO | Processed: Senior Data Engineer
+2026-05-28 19:39:03,228 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,228 | a16z_jobs | INFO | Processed: Data Engineer, Infrastructure FinOps
+2026-05-28 19:39:03,228 | a16z_jobs | INFO | Processed: Software Engineer, Data Engineering
+2026-05-28 19:39:03,228 | a16z_jobs | INFO | Processed: Sr. Data Engineer (Data Platforms)
+2026-05-28 19:39:03,229 | a16z_jobs | INFO | Processed: Senior Data Engineer
+2026-05-28 19:39:03,229 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,229 | a16z_jobs | INFO | Processed: Senior Data Engineer - Graph Specialist
+2026-05-28 19:39:03,229 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,229 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,229 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,230 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,230 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,230 | a16z_jobs | INFO | Processed: Senior Data Engineer
+2026-05-28 19:39:03,230 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,230 | a16z_jobs | INFO | Processed: Member of Technical Staff, Reporting & Statements (Data Engineer)
+2026-05-28 19:39:03,230 | a16z_jobs | INFO | Processed: Manager, Big Data Architecture – Professional Services (DWH, Data Engineering & Migrations)
+2026-05-28 19:39:03,231 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,231 | a16z_jobs | INFO | Processed: Data Engineer
+2026-05-28 19:39:03,231 | a16z_jobs | INFO | Processed: Sr. Big Data Engineer
+2026-05-28 19:39:03,231 | a16z_jobs | INFO | Searching: devops engineer
+2026-05-28 19:39:04,211 | a16z_jobs | INFO | Processed: DevOps Engineer
+2026-05-28 19:39:04,211 | a16z_jobs | INFO | Processed: Sr. DevOps Engineer
+2026-05-28 19:39:04,211 | a16z_jobs | INFO | Processed: Staff DevOps Engineer
+2026-05-28 19:39:04,211 | a16z_jobs | INFO | Processed: DevOps Engineer (Engineering Productivity & Tooling)
+2026-05-28 19:39:04,212 | a16z_jobs | INFO | Processed: Sr. DevOps Engineer
+2026-05-28 19:39:04,212 | a16z_jobs | INFO | Processed: Senior DevOps Engineer
+2026-05-28 19:39:04,212 | a16z_jobs | INFO | Processed: DevOps Engineer
+2026-05-28 19:39:04,212 | a16z_jobs | INFO | Processed: DevOps Engineer
+2026-05-28 19:39:04,213 | a16z_jobs | INFO | Processed: Lead DevOps Engineer
+2026-05-28 19:39:04,213 | a16z_jobs | INFO | Processed: Senior DevOps Engineer
+2026-05-28 19:39:04,213 | a16z_jobs | INFO | Processed: Sr. DevOps Engineer
+2026-05-28 19:39:04,213 | a16z_jobs | INFO | Processed: DevOps Engineer
+2026-05-28 19:39:04,213 | a16z_jobs | INFO | Processed: DevOps Engineer
+2026-05-28 19:39:04,214 | a16z_jobs | INFO | Processed: DevOps Engineer
+2026-05-28 19:39:04,214 | a16z_jobs | INFO | Processed: Senior DevOps Engineer
+2026-05-28 19:39:04,214 | a16z_jobs | INFO | Processed: DevOps Engineer
+2026-05-28 19:39:04,214 | a16z_jobs | INFO | Processed: Lead DevOps Engineer
+2026-05-28 19:39:04,214 | a16z_jobs | INFO | Processed: DevOps Engineer | LATAM
+2026-05-28 19:39:04,215 | a16z_jobs | INFO | Processed: Senior DevOps Engineer
+2026-05-28 19:39:04,215 | a16z_jobs | INFO | Searching: product manager
+2026-05-28 19:39:05,775 | a16z_jobs | INFO | Processed: Product Manager (Payments)
+2026-05-28 19:39:05,775 | a16z_jobs | INFO | Processed: Data Product Manager
+2026-05-28 19:39:05,775 | a16z_jobs | INFO | Processed: Senior Product Manager, Enterprise
+2026-05-28 19:39:05,776 | a16z_jobs | INFO | Processed: Senior Product Manager, Affordable Housing
+2026-05-28 19:39:05,776 | a16z_jobs | INFO | Processed: Product Manager, Terminal Device Expansion
+2026-05-28 19:39:05,776 | a16z_jobs | INFO | Processed: Senior Product Manager, Monetization Platform
+2026-05-28 19:39:05,776 | a16z_jobs | INFO | Processed: Staff Product Manager, AI Clinical Tools
+2026-05-28 19:39:05,776 | a16z_jobs | INFO | Processed: Senior Product Manager, HCM
+2026-05-28 19:39:05,777 | a16z_jobs | INFO | Processed: Senior Product Manager, Scalability & Compute
+2026-05-28 19:39:05,777 | a16z_jobs | INFO | Processed: Senior Agent Product Manager - Germany
+2026-05-28 19:39:05,777 | a16z_jobs | INFO | Processed: Product Manager, Perception Modeling - Semantics
+2026-05-28 19:39:05,777 | a16z_jobs | INFO | Processed: Senior Product Manager - AI Clinical Tools
+2026-05-28 19:39:05,777 | a16z_jobs | INFO | Processed: Technical Product Manager, GTM Systems
+2026-05-28 19:39:05,777 | a16z_jobs | INFO | Processed: Senior Product Manager
+2026-05-28 19:39:05,777 | a16z_jobs | INFO | Processed: Product Manager- Reporting
+2026-05-28 19:39:05,778 | a16z_jobs | INFO | Processed: Senior Product Manager
+2026-05-28 19:39:05,778 | a16z_jobs | INFO | Processed: Staff Product Manager, Local Processor Acquiring
+2026-05-28 19:39:05,778 | a16z_jobs | INFO | Processed: Staff Product Manager, Adaptive Pricing
+2026-05-28 19:39:05,778 | a16z_jobs | INFO | Processed: Technical Product Manager, Sr Staff (R5032)
+2026-05-28 19:39:05,778 | a16z_jobs | INFO | Processed: Product Manager (Mid-Senior Level)
+2026-05-28 19:39:05,778 | a16z_jobs | INFO | Processed: Product Manager (Dashboard)
+2026-05-28 19:39:05,778 | a16z_jobs | INFO | Processed: Principal Product Manager - Growth, Quora (Remote)
+2026-05-28 19:39:05,779 | a16z_jobs | INFO | Processed: Product Manager
+2026-05-28 19:39:05,779 | a16z_jobs | INFO | Processed: Product Manager, Stablecoin & Digital Assets
+2026-05-28 19:39:05,779 | a16z_jobs | INFO | Processed: Product Manager, Stablecoin & Digital Assets
+2026-05-28 19:39:05,779 | a16z_jobs | INFO | Processed: Product Manager, Stablecoin & Digital Assets
+2026-05-28 19:39:05,779 | a16z_jobs | INFO | Processed: Product Manager, Members
+2026-05-28 19:39:05,779 | a16z_jobs | INFO | Processed: Product Manager, Growth AI Outreach Motion
+2026-05-28 19:39:05,779 | a16z_jobs | INFO | Processed: Product Manager, Mapping (Data Quality & Tooling)
+2026-05-28 19:39:05,780 | a16z_jobs | INFO | Processed: Group Product Manager, Knowledge Platform
+2026-05-28 19:39:05,780 | a16z_jobs | INFO | Processed: Product Manager, Ecosystem Risk
+2026-05-28 19:39:05,780 | a16z_jobs | INFO | Processed: Product Manager, Ecosystem Risk
+2026-05-28 19:39:05,780 | a16z_jobs | INFO | Processed: GTM Growth Product Manager, Agentic Systems
+2026-05-28 19:39:05,780 | a16z_jobs | INFO | Processed: Product Manager, Mapping (Real-time Disruptions)
+2026-05-28 19:39:05,780 | a16z_jobs | INFO | Processed: Credit Product Manager
+2026-05-28 19:39:05,781 | a16z_jobs | INFO | Processed: Product Manager
+2026-05-28 19:39:05,781 | a16z_jobs | INFO | Processed: Technical Product Manager, Security Tooling
+2026-05-28 19:39:05,781 | a16z_jobs | INFO | Processed: Senior Product Manager
+2026-05-28 19:39:05,781 | a16z_jobs | INFO | Processed: Principal Product Manager
+2026-05-28 19:39:05,782 | a16z_jobs | INFO | Processed: Senior Product Manager - Banking Foundations
+2026-05-28 19:39:05,782 | a16z_jobs | INFO | Processed: Senior Product Manager
+2026-05-28 19:39:05,782 | a16z_jobs | INFO | Processed: Product Manager, Developer Platform
+2026-05-28 19:39:05,782 | a16z_jobs | INFO | Processed: Senior Agent Product Manager
+2026-05-28 19:39:05,782 | a16z_jobs | INFO | Processed: Senior Agent Product Manager - German Speaking
+2026-05-28 19:39:05,783 | a16z_jobs | INFO | Processed: Product Manager
+2026-05-28 19:39:05,783 | a16z_jobs | INFO | Processed: Senior Product Manager
+2026-05-28 19:39:05,852 | a16z_jobs | INFO | Saved 165 jobs
+2026-05-28 19:39:05,852 | a16z_jobs | INFO | Cleaning up a16z_jobs scraper

@@ -1,5 +1,6 @@
 from scrapers.core.utils.hash_utils import generate_link_hash
 from scrapers.core.utils.type_extractor import extract_employment_type, extract_job_type
+from scrapers.core.utils.schema_validator import validate_job
 
 def parse_job(job):
 
@@ -38,7 +39,7 @@ def parse_job(job):
 
     link = job.get("url") or job.get("applyUrl")
 
-    return {
+    return validate_job({
         "title": title,
         "company": company,
         "location": location,
@@ -55,4 +56,4 @@ def parse_job(job):
         "work_auth": None,
         "job_status": "active",
         "search_keyword": job.get("search_keyword"),
-    }
+    })

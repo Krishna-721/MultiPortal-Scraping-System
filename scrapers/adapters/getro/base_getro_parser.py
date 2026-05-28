@@ -1,4 +1,5 @@
 from scrapers.core.utils.hash_utils import generate_link_hash
+from scrapers.core.utils.schema_validator import validate_job
 
 
 def parse_getro_job(job, source="getro"):
@@ -94,7 +95,7 @@ def parse_getro_job(job, source="getro"):
         )
 
 
-    return {
+    return validate_job({
         "title": title,
         "company": company,
         "link": url,
@@ -107,4 +108,4 @@ def parse_getro_job(job, source="getro"):
         "job_status": "active",
         "source": source,
         "search_keyword": job.get("search_keyword"),
-    }
+    })

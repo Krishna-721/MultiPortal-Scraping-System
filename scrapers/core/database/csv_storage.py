@@ -57,11 +57,7 @@ class CSVStorage:
         # ENSURE SCHEMA COLUMNS
         # =========================
 
-        for column in JOB_SCHEMA_COLUMNS:
-            if column not in new_df.columns:
-                new_df[column] = None
-
-        new_df = new_df[JOB_SCHEMA_COLUMNS]
+        new_df = new_df.reindex(columns=JOB_SCHEMA_COLUMNS)
 
         # =========================
         # LOAD EXISTING
@@ -70,11 +66,9 @@ class CSVStorage:
         if os.path.exists(filename):
             existing_df = pd.read_csv(filename)
 
-            for column in JOB_SCHEMA_COLUMNS:
-                if column not in existing_df.columns:
-                    existing_df[column] = None
-
-            existing_df = existing_df[JOB_SCHEMA_COLUMNS]
+            existing_df = existing_df.reindex(
+                columns=JOB_SCHEMA_COLUMNS
+            )
 
             combined_df = pd.concat([existing_df, new_df], ignore_index=True)
 

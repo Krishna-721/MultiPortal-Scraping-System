@@ -14,6 +14,11 @@ from scrapers.portals.startup_jobs.parser import (
 )
 
 from scrapers.core.config.settings import DETAIL_ENRICHMENT_LIMIT
+from scrapers.core.utils.relevance_filter import (
+    is_relevant_job,
+)
+
+PAGE_GOTO_TIMEOUT_MS = 20000
 
 class StartupJobsScraper(BaseScraper):
     def __init__(self):
@@ -22,11 +27,31 @@ class StartupJobsScraper(BaseScraper):
 
         self.detail_scraper = None
 
-    async def fetch_jobs(self, keyword="", max_jobs=100):
+    async def fetch_jobs(
+        self,
+        keyword="",
+        max_jobs=100,
+        existing_urls=None,
+        seen_urls=None,
+    ):
+
+        if existing_urls is None:
+            existing_urls = set()
+
+        if seen_urls is None:
+            seen_urls = set()
 
         search_url = f"https://startup.jobs/?q={keyword}"
 
-        await self.page.goto(search_url, wait_until="domcontentloaded")
+        try:
+            await self.page.goto(
+                search_url,
+                wait_until="domcontentloaded",
+                timeout=PAGE_GOTO_TIMEOUT_MS,
+            )
+        except Exception as e:
+            self.logger.error(f"Search page failed: {search_url} | {e}")
+            return []
 
         self.logger.info(f"Searching: {keyword}")
 
@@ -66,7 +91,14 @@ class StartupJobsScraper(BaseScraper):
 
                     full_link = f"https://startup.jobs{link}"
 
-                    if full_link in seen_links:
+                    if (
+                        full_link in seen_links
+                        or full_link in existing_urls
+                        or full_link in seen_urls
+                    ):
+                        continue
+
+                    if not is_relevant_job(title, keyword):
                         continue
 
                     seen_links.add(full_link)
@@ -115,6 +147,7 @@ class StartupJobsScraper(BaseScraper):
                 await self.page.goto(
                     next_url,
                     wait_until="domcontentloaded",
+                    timeout=PAGE_GOTO_TIMEOUT_MS,
                 )
 
             except Exception as e:

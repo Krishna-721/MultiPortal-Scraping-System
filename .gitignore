@@ -1,4 +1,33 @@
-__pycache__ /
+# Python
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+scrapers/logs/
+*.log
+
+# Data
+data/
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
