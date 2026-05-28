@@ -1,0 +1,122 @@
+2026-05-27 14:26:26,889 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 16:30:38,732 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 17:08:22,567 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 18:38:28,565 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 18:38:28,566 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 18:38:29,296 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 18:38:29,296 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 18:39:10,631 | general_catalyst | ERROR | Failed fetching jobs for software engineer: Timeout 30000ms exceeded while waiting for event "response"
+2026-05-27 18:39:10,638 | general_catalyst | INFO | Searching: data engineer
+2026-05-27 18:39:41,954 | general_catalyst | ERROR | Failed fetching jobs for data engineer: Timeout 30000ms exceeded while waiting for event "response"
+2026-05-27 18:39:41,954 | general_catalyst | INFO | Saved 0 jobs
+2026-05-27 18:39:41,954 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 20:44:57,602 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 20:44:57,602 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 20:44:58,697 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 20:44:58,698 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 20:45:51,083 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 20:51:06,750 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 20:51:06,751 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 20:51:07,833 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 20:51:07,833 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 20:51:14,791 | general_catalyst | INFO | Searching: data engineer
+2026-05-27 20:51:19,257 | general_catalyst | INFO | Saved 0 jobs
+2026-05-27 20:51:19,257 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 20:53:07,726 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 20:53:07,727 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 20:53:08,905 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 20:53:08,905 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 20:53:15,851 | general_catalyst | INFO | Searching: data engineer
+2026-05-27 20:53:20,405 | general_catalyst | INFO | Saved 0 jobs
+2026-05-27 20:53:20,406 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 20:57:59,343 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 20:57:59,344 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 20:58:00,489 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 20:58:00,489 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 20:58:52,159 | general_catalyst | ERROR | Error in fetch_page for software engineer: Timeout 45000ms exceeded while waiting for event "response"
+2026-05-27 20:58:52,167 | general_catalyst | INFO | Searching: data engineer
+2026-05-27 20:59:41,164 | general_catalyst | ERROR | Error in fetch_page for data engineer: Timeout 45000ms exceeded while waiting for event "response"
+2026-05-27 20:59:41,172 | general_catalyst | INFO | Saved 0 jobs
+2026-05-27 20:59:41,173 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 21:12:06,814 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 21:12:06,815 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 21:12:08,038 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 21:12:08,038 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 21:13:08,061 | general_catalyst | ERROR | Error in fetch_page for software engineer: Timeout 45000ms exceeded while waiting for event "response"
+2026-05-27 21:13:08,071 | general_catalyst | INFO | Searching: data engineer
+2026-05-27 21:13:57,247 | general_catalyst | ERROR | Error in fetch_page for data engineer: Timeout 45000ms exceeded while waiting for event "response"
+2026-05-27 21:13:57,255 | general_catalyst | INFO | Saved 0 jobs
+2026-05-27 21:13:57,255 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 21:16:16,888 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 21:16:16,889 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 21:16:18,197 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 21:16:18,197 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 21:17:13,351 | general_catalyst | ERROR | Error in fetch_page for software engineer: Timeout 45000ms exceeded while waiting for event "response"
+2026-05-27 21:17:13,360 | general_catalyst | INFO | Searching: data engineer
+2026-05-27 21:18:02,383 | general_catalyst | ERROR | Error in fetch_page for data engineer: Timeout 45000ms exceeded while waiting for event "response"
+2026-05-27 21:18:02,392 | general_catalyst | INFO | Saved 0 jobs
+2026-05-27 21:18:02,392 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 21:38:30,165 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 21:38:30,165 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 21:38:30,914 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 21:38:30,914 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 21:39:31,004 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 22:05:29,853 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 22:05:29,856 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 22:05:30,890 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 22:05:30,890 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 22:05:51,676 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 22:39:12,611 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 22:39:12,612 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 22:39:13,310 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 22:39:13,311 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 22:39:21,200 | general_catalyst | ERROR | Getro fetch failed for keyword 'software engineer': 'BrowserContext' object has no attribute 'wait_for_response'
+2026-05-27 22:39:21,212 | general_catalyst | INFO | Searching: data engineer
+2026-05-27 22:39:26,270 | general_catalyst | ERROR | Getro fetch failed for keyword 'data engineer': 'BrowserContext' object has no attribute 'wait_for_response'
+2026-05-27 22:39:26,278 | general_catalyst | INFO | Saved 0 jobs
+2026-05-27 22:39:26,279 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 22:58:43,847 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 22:58:43,847 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 22:58:44,616 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 22:58:44,617 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 22:58:46,348 | general_catalyst | ERROR | Getro API failed: 403
+2026-05-27 22:58:46,380 | general_catalyst | INFO | Searching: data engineer
+2026-05-27 22:58:47,235 | general_catalyst | ERROR | Getro API failed: 403
+2026-05-27 22:58:47,236 | general_catalyst | INFO | Saved 0 jobs
+2026-05-27 22:58:47,236 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 23:00:57,120 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 23:00:57,121 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 23:00:57,988 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 23:00:57,988 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 23:00:57,989 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 23:08:07,138 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 23:08:07,139 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 23:08:08,034 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 23:08:08,034 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 23:08:21,991 | general_catalyst | ERROR | Getro fetch failed for keyword 'software engineer': Page.evaluate: Error: HTTP 403
+    at eval (eval at evaluate (:302:30), <anonymous>:12:31)
+    at async <anonymous>:328:30
+2026-05-27 23:08:22,001 | general_catalyst | INFO | Searching: data engineer
+2026-05-27 23:08:26,198 | general_catalyst | ERROR | Getro fetch failed for keyword 'data engineer': Page.evaluate: Error: HTTP 403
+    at eval (eval at evaluate (:302:30), <anonymous>:12:31)
+    at async <anonymous>:328:30
+2026-05-27 23:08:26,206 | general_catalyst | INFO | Saved 0 jobs
+2026-05-27 23:08:26,206 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 23:11:10,236 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 23:11:10,237 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 23:11:11,026 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 23:11:11,027 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 23:11:23,980 | general_catalyst | ERROR | No API response captured for 'software engineer'
+2026-05-27 23:11:23,989 | general_catalyst | INFO | Searching: data engineer
+2026-05-27 23:11:33,854 | general_catalyst | ERROR | No API response captured for 'data engineer'
+2026-05-27 23:11:33,867 | general_catalyst | INFO | Saved 0 jobs
+2026-05-27 23:11:33,868 | general_catalyst | INFO | Cleaning up general_catalyst scraper
+2026-05-27 23:14:46,312 | general_catalyst | INFO | general_catalyst scraper started
+2026-05-27 23:14:46,313 | general_catalyst | INFO | Initializing general_catalyst scraper
+2026-05-27 23:14:47,326 | general_catalyst | INFO | Browser initialized for general_catalyst
+2026-05-27 23:14:47,326 | general_catalyst | INFO | Searching: software engineer
+2026-05-27 23:15:00,236 | general_catalyst | ERROR | No API response captured for 'software engineer'
+2026-05-27 23:15:00,251 | general_catalyst | INFO | Searching: data engineer
+2026-05-27 23:15:10,314 | general_catalyst | ERROR | No API response captured for 'data engineer'
+2026-05-27 23:15:10,328 | general_catalyst | INFO | Saved 0 jobs
+2026-05-27 23:15:10,329 | general_catalyst | INFO | Cleaning up general_catalyst scraper
