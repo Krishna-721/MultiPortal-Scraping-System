@@ -3785,3 +3785,125 @@ Timeout 30000ms exceeded.
 2026-05-28 19:40:29,184 | accel_jobs | INFO | Enrichment complete
 2026-05-28 19:40:29,288 | accel_jobs | INFO | Saved 112 jobs
 2026-05-28 19:40:29,288 | accel_jobs | INFO | Cleaning up accel_jobs scraper
+2026-05-28 20:21:22,733 | accel_jobs | INFO | accel_jobs scraper started
+2026-05-28 20:21:22,733 | accel_jobs | INFO | Initializing accel_jobs scraper
+2026-05-28 20:21:23,916 | accel_jobs | INFO | Browser initialized for accel_jobs
+2026-05-28 20:21:23,917 | accel_jobs | INFO | Searching: software engineer
+2026-05-28 20:21:25,807 | accel_jobs | INFO | Processed: Staff Software Engineer - Backend Python
+2026-05-28 20:21:25,807 | accel_jobs | INFO | Processed: Senior Software Engineer | Remote | AI SaaS Software Role
+2026-05-28 20:21:25,808 | accel_jobs | INFO | Processed: Senior Software Engineer | Remote | AI SaaS Software Role
+2026-05-28 20:21:25,808 | accel_jobs | INFO | Processed: Senior Software Engineer | Remote | AI SaaS Software Role
+2026-05-28 20:21:25,809 | accel_jobs | INFO | Processed: Senior Software Engineer | Remote | AI SaaS Software Role
+2026-05-28 20:21:25,809 | accel_jobs | INFO | Processed: Senior Software Engineer | Remote | AI SaaS Software Role
+2026-05-28 20:21:25,809 | accel_jobs | INFO | Processed: Senior Software Engineer | Remote | AI SaaS Software Role
+2026-05-28 20:21:25,810 | accel_jobs | INFO | Processed: Senior Software Engineer | Remote | AI SaaS Software Role
+2026-05-28 20:21:25,810 | accel_jobs | INFO | Processed: Senior Software Engineer | Remote | AI SaaS Software Role
+2026-05-28 20:21:25,810 | accel_jobs | INFO | Processed: Senior Software Engineer | Remote | AI SaaS Software Role
+2026-05-28 20:21:25,811 | accel_jobs | INFO | Processed: Senior Software Engineer | Remote | AI SaaS Software Role
+2026-05-28 20:21:25,811 | accel_jobs | INFO | Processed: Senior Software Engineer, Agent Platform
+2026-05-28 20:21:25,811 | accel_jobs | INFO | Processed: Senior Software Engineer
+2026-05-28 20:21:25,812 | accel_jobs | INFO | Processed: Senior Software Engineer(AI/ML), Trust
+2026-05-28 20:21:25,812 | accel_jobs | INFO | Processed: AI Architect - Software Engineering
+2026-05-28 20:21:25,812 | accel_jobs | INFO | Processed: Staff Software Engineer, Data Ingestion - Slack
+2026-05-28 20:21:25,813 | accel_jobs | INFO | Processed: Lead Software Engineer (AI/ML)
+2026-05-28 20:21:25,813 | accel_jobs | INFO | Processed: Software Engineering MTS (iOS SwiftUI + Frontend Engineer)
+2026-05-28 20:21:25,814 | accel_jobs | INFO | Processed: Principal Software Engineer
+2026-05-28 20:21:25,814 | accel_jobs | INFO | Processed: Senior Wireless Software Engineer, National Security
+2026-05-28 20:21:25,815 | accel_jobs | INFO | Processed: Software Engineer - Cloud Simulation & Full-Stack
+2026-05-28 20:21:25,815 | accel_jobs | INFO | Processed: Software Engineer - Autonomy Infrastructure, Systems and Tools
+2026-05-28 20:21:25,815 | accel_jobs | INFO | Processed: Software Engineer - Simulation & Robotics Engineer
+2026-05-28 20:21:25,816 | accel_jobs | INFO | Processed: Senior Software Engineer I, Data Enablement
+2026-05-28 20:21:25,816 | accel_jobs | INFO | Processed: Software Engineer
+2026-05-28 20:21:25,816 | accel_jobs | INFO | Processed: Software Engineer (Technical Leadership) - Host Networking
+2026-05-28 20:21:25,817 | accel_jobs | INFO | Processed: Software Engineer (Technical Leadership) - Host Networking
+2026-05-28 20:21:25,817 | accel_jobs | INFO | Processed: Software Engineer, Video AI/ML Specialist
+2026-05-28 20:21:25,818 | accel_jobs | INFO | Processed: Principal Software Engineer
+2026-05-28 20:21:25,819 | accel_jobs | INFO | Processed: Software Engineer II, XWorks
+2026-05-28 20:21:25,820 | accel_jobs | INFO | Processed: Security Software Engineer
+2026-05-28 20:21:25,820 | accel_jobs | INFO | Processed: Senior Software Engineer, Java (x/f/m)
+2026-05-28 20:21:25,821 | accel_jobs | INFO | Processed: Sr. Software Engineer
+2026-05-28 20:21:25,822 | accel_jobs | INFO | Processed: Software Engineer
+2026-05-28 20:21:25,823 | accel_jobs | INFO | Processed: Server Testing & Diagnostics Systems/Software Engineer
+2026-05-28 20:21:25,824 | accel_jobs | INFO | Processed: Networking Systems Software Engineer (C, C++ - L2/L3 Protocols)
+2026-05-28 20:21:25,825 | accel_jobs | INFO | Processed: DAOS Software Engineer
+2026-05-28 20:21:25,825 | accel_jobs | INFO | Processed: Systems/Software Engineer III
+2026-05-28 20:21:25,826 | accel_jobs | INFO | Processed: Server Testing & Diagnostics Systems/Software Engineer
+2026-05-28 20:21:25,826 | accel_jobs | INFO | Processed: Sr Software Engineer II
+2026-05-28 20:21:25,827 | accel_jobs | INFO | Processed: Software Engineer, Payments Platform
+2026-05-28 20:21:25,827 | accel_jobs | INFO | Processed: Sr. Security Software Engineer, Vulnerability Management - Slack
+2026-05-28 20:21:25,827 | accel_jobs | INFO | Processed: Sr. Software Engineer, Cloud Network - Slack
+2026-05-28 20:21:25,828 | accel_jobs | INFO | Processed: Senior Software Engineer
+2026-05-28 20:21:25,828 | accel_jobs | INFO | Processed: Software Engineer Intern
+2026-05-28 20:21:25,829 | accel_jobs | INFO | Processed: Senior Manager, Software Engineering - Agentforce Voice
+2026-05-28 20:21:25,832 | accel_jobs | INFO | Searching: data engineer
+2026-05-28 20:21:27,110 | accel_jobs | INFO | Processed: Senior AI Data Engineer
+2026-05-28 20:21:27,110 | accel_jobs | INFO | Processed: AI Data Engineer
+2026-05-28 20:21:27,110 | accel_jobs | INFO | Processed: Senior AI & Data Engineer
+2026-05-28 20:21:27,111 | accel_jobs | INFO | Processed: Senior Data Engineering Manager
+2026-05-28 20:21:27,111 | accel_jobs | INFO | Processed: Senior Data Engineering Manager
+2026-05-28 20:21:27,111 | accel_jobs | INFO | Processed: Principal Data Engineer
+2026-05-28 20:21:27,112 | accel_jobs | INFO | Processed: Data Engineer, Analytics (Technical Leadership)
+2026-05-28 20:21:27,112 | accel_jobs | INFO | Processed: BI & Data Engineer - data visualization skills
+2026-05-28 20:21:27,112 | accel_jobs | INFO | Processed: Sr. Data Engineer, Cloud Security (Hybrid, ISR)
+2026-05-28 20:21:27,113 | accel_jobs | INFO | Processed: Senior Data Platform Engineer
+2026-05-28 20:21:27,113 | accel_jobs | INFO | Processed: Principal IT Data Engineer - Data & Analytics
+2026-05-28 20:21:27,114 | accel_jobs | INFO | Processed: Senior Data Engineer
+2026-05-28 20:21:27,115 | accel_jobs | INFO | Processed: Senior Data Engineer, Analytics
+2026-05-28 20:21:27,115 | accel_jobs | INFO | Processed: BI & Data Engineer - data visualization skills
+2026-05-28 20:21:27,116 | accel_jobs | INFO | Processed: Research Engineer, Economic Research Data Platform
+2026-05-28 20:21:27,116 | accel_jobs | INFO | Processed: Director, Data Engineering
+2026-05-28 20:21:27,117 | accel_jobs | INFO | Processed: Director, Data Engineering
+2026-05-28 20:21:27,118 | accel_jobs | INFO | Searching: devops engineer
+2026-05-28 20:21:28,372 | accel_jobs | INFO | Processed: (Junior) DevOps Engineer (m/w/d) Mobilfunk
+2026-05-28 20:21:28,372 | accel_jobs | INFO | Processed: Site Reliability Engineer (SRE/ DevOps) - Engineering Productivity
+2026-05-28 20:21:28,373 | accel_jobs | INFO | Processed: Staff DevOps Engineer (Cortex Research)
+2026-05-28 20:21:28,373 | accel_jobs | INFO | Processed: Sr Staff DevOps Engineer - NetSec - Bangalore
+2026-05-28 20:21:28,373 | accel_jobs | INFO | Processed: Principal DevOps Engineer
+2026-05-28 20:21:28,374 | accel_jobs | INFO | Processed: Experienced DevOps Engineer (Cortex Cloud)
+2026-05-28 20:21:28,374 | accel_jobs | INFO | Processed: Principal DevOps Engineer (Enterprise Browser)
+2026-05-28 20:21:28,374 | accel_jobs | INFO | Processed: DevOps Engineering AMTS
+2026-05-28 20:21:28,375 | accel_jobs | INFO | Processed: Site Reliability Engineer (SRE/ DevOps) - Engineering Productivity - Sydney
+2026-05-28 20:21:28,375 | accel_jobs | INFO | Processed: Sr. Software Engineer (SDE-2_DevOps & Security)
+2026-05-28 20:21:28,375 | accel_jobs | INFO | Processed: Sr. Solutions Engineer, DevOps
+2026-05-28 20:21:28,378 | accel_jobs | INFO | Processed: Staff DevOps Engineer
+2026-05-28 20:21:28,378 | accel_jobs | INFO | Processed: Site Reliability Engineer (SRE/ DevOps) - Engineering Productivity
+2026-05-28 20:21:28,380 | accel_jobs | INFO | Processed: Senior Platform Engineer, Internal Developer Platform & Developer Experience
+2026-05-28 20:21:28,380 | accel_jobs | INFO | Searching: product manager
+2026-05-28 20:21:29,496 | accel_jobs | INFO | Processed: Associate Product Manager (AI Products)
+2026-05-28 20:21:29,497 | accel_jobs | INFO | Processed: Product Manager - Indonesian Equities & Local Products
+2026-05-28 20:21:29,497 | accel_jobs | INFO | Processed: Lead Product Manager, AI
+2026-05-28 20:21:29,498 | accel_jobs | INFO | Processed: Product Manager - AI Platform
+2026-05-28 20:21:29,498 | accel_jobs | INFO | Processed: Product Manager
+2026-05-28 20:21:29,498 | accel_jobs | INFO | Processed: Product Manager
+2026-05-28 20:21:29,498 | accel_jobs | INFO | Processed: Senior Product Manager
+2026-05-28 20:21:29,499 | accel_jobs | INFO | Processed: Senior Product Manager
+2026-05-28 20:21:29,499 | accel_jobs | INFO | Processed: Staff Product Manager, Identity & Access Management
+2026-05-28 20:21:29,499 | accel_jobs | INFO | Processed: Lead Product Manager
+2026-05-28 20:21:29,500 | accel_jobs | INFO | Processed: Product Manager
+2026-05-28 20:21:29,500 | accel_jobs | INFO | Processed: Staff Product Manager
+2026-05-28 20:21:29,500 | accel_jobs | INFO | Processed: Staff Product Manager
+2026-05-28 20:21:29,501 | accel_jobs | INFO | Processed: Staff Product Manager
+2026-05-28 20:21:29,501 | accel_jobs | INFO | Processed: Senior Product Manager
+2026-05-28 20:21:29,501 | accel_jobs | INFO | Processed: Senior Product Manager, Cloudera Cloud Core
+2026-05-28 20:21:29,502 | accel_jobs | INFO | Processed: Staff Product Manager | Cloud Data Platform
+2026-05-28 20:21:29,503 | accel_jobs | INFO | Processed: Product Manager - AI Platform
+2026-05-28 20:21:29,503 | accel_jobs | INFO | Processed: Senior Product Manager
+2026-05-28 20:21:29,503 | accel_jobs | INFO | Processed: Product Manager - Growth
+2026-05-28 20:21:29,504 | accel_jobs | INFO | Processed: Senior Product Manager, Core Platform & AI (Cortex Platform)
+2026-05-28 20:21:29,504 | accel_jobs | INFO | Processed: Senior Product Manager (XSIAM SIEM)
+2026-05-28 20:21:29,505 | accel_jobs | INFO | Processed: Principal IT Product Manager - Data & Analytics
+2026-05-28 20:21:29,505 | accel_jobs | INFO | Processed: Principal Product Manager (Prisma SASE for MSPs)
+2026-05-28 20:21:29,505 | accel_jobs | INFO | Processed: Senior Product Manager - Storage/Cost Optimization (Chronosphere)
+2026-05-28 20:21:29,506 | accel_jobs | INFO | Processed: Senior Product Manager - Agentic Endpoint Security (Cortex)
+2026-05-28 20:21:29,506 | accel_jobs | INFO | Processed: Senior Product Manager - Identity and Access Management (Chronosphere)
+2026-05-28 20:21:29,507 | accel_jobs | INFO | Processed: Sr. Product Manager (Device Security)
+2026-05-28 20:21:29,507 | accel_jobs | INFO | Processed: AI Product Manager
+2026-05-28 20:21:29,508 | accel_jobs | INFO | Processed: IT Product Manager - Billing and Revenue Systems
+2026-05-28 20:21:29,509 | accel_jobs | INFO | Processed: Principal Product Manager
+2026-05-28 20:21:29,509 | accel_jobs | INFO | Processed: Senior Product Manager - Prisma Access Browser
+2026-05-28 20:21:29,509 | accel_jobs | INFO | Processed: Senior Product Manager
+2026-05-28 20:21:29,510 | accel_jobs | INFO | Processed: Sr IT Product Manager
+2026-05-28 20:21:29,510 | accel_jobs | INFO | Starting enrichment for 50 jobs
+2026-05-28 20:22:35,530 | accel_jobs | INFO | Enrichment complete
+2026-05-28 20:22:35,658 | accel_jobs | INFO | Saved 111 jobs
+2026-05-28 20:22:35,658 | accel_jobs | INFO | Cleaning up accel_jobs scraper

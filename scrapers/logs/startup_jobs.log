@@ -11024,3 +11024,422 @@ generate_link_hash() takes 1 positional argument but 3 were given
 2026-05-28 19:42:55,831 | startup_jobs | INFO | Added: Product Manager MLops
 2026-05-28 19:42:55,831 | startup_jobs | INFO | Saving 103 jobs
 2026-05-28 19:42:55,919 | startup_jobs | INFO | Cleaning up startup_jobs scraper
+2026-05-28 20:23:59,265 | startup_jobs | INFO | startup_jobs scraper started
+2026-05-28 20:23:59,297 | startup_jobs | INFO | Initializing startup_jobs scraper
+2026-05-28 20:24:01,261 | startup_jobs | INFO | Browser initialized for startup_jobs
+2026-05-28 20:24:01,261 | startup_jobs | INFO | Searching keyword: software engineer
+2026-05-28 20:24:02,537 | startup_jobs | INFO | Searching: software engineer
+2026-05-28 20:24:04,626 | startup_jobs | INFO | Found 45 cards on current page
+2026-05-28 20:24:04,668 | startup_jobs | INFO |   [FILTERED] Strategy & Operations Lead
+2026-05-28 20:24:04,692 | startup_jobs | INFO |   [ACCEPT] Founding Full-Stack Engineer
+2026-05-28 20:24:04,714 | startup_jobs | INFO |   [ACCEPT] Founding Senior Full Stack Engineer
+2026-05-28 20:24:04,737 | startup_jobs | INFO |   [FILTERED] Account Executive
+2026-05-28 20:24:04,760 | startup_jobs | INFO |   [ACCEPT] Senior Full Stack Engineer
+2026-05-28 20:24:04,781 | startup_jobs | INFO |   [FILTERED] Lead AI Engineer
+2026-05-28 20:24:04,800 | startup_jobs | INFO |   [FILTERED] Operations Specialist - Build Systems and Solve Problems at a Growing Manufacturer
+2026-05-28 20:24:04,821 | startup_jobs | INFO |   [FILTERED] Founding Engineer (with equity)
+2026-05-28 20:24:04,841 | startup_jobs | INFO |   [FILTERED] LEAD AI ENGINEER
+2026-05-28 20:24:04,860 | startup_jobs | INFO |   [FILTERED] Founding Engineer (With Equity)
+2026-05-28 20:24:04,878 | startup_jobs | INFO |   [FILTERED] Senior Customer Strategy & Operations Manager
+2026-05-28 20:24:04,895 | startup_jobs | INFO |   [FILTERED] Electrical Engineer, Compute Architecture
+2026-05-28 20:24:04,916 | startup_jobs | INFO |   [FILTERED] Manager, Customer Support
+2026-05-28 20:24:04,936 | startup_jobs | INFO |   [FILTERED] Design Systems Manager, Design Foundations & AI Transformation
+2026-05-28 20:24:04,957 | startup_jobs | INFO |   [FILTERED] Country Director, India
+2026-05-28 20:24:04,977 | startup_jobs | INFO |   [FILTERED] Executive Business Partner to CMOs
+2026-05-28 20:24:04,996 | startup_jobs | INFO |   [FILTERED] Sr. Manager, Large Customer Sales (Big Box Retail)
+2026-05-28 20:24:05,018 | startup_jobs | INFO |   [FILTERED] Field Solutions Engineer
+2026-05-28 20:24:05,036 | startup_jobs | INFO |   [ACCEPT] Principal Software Engineer
+2026-05-28 20:24:05,058 | startup_jobs | INFO |   [FILTERED] Compliance Manager
+2026-05-28 20:24:05,079 | startup_jobs | INFO |   [ACCEPT] Staff Software Engineer (Magic Containers)
+2026-05-28 20:24:05,099 | startup_jobs | INFO |   [FILTERED] Software Engineer II - Network Operations
+2026-05-28 20:24:05,118 | startup_jobs | INFO |   [ACCEPT] Software Engineer - DevOps - Recent Graduate - Hybrid - Norcross, GA
+2026-05-28 20:24:05,140 | startup_jobs | INFO |   [ACCEPT] Software Engineer (C++) | Minecraft
+2026-05-28 20:24:05,159 | startup_jobs | INFO |   [ACCEPT] Software Engineer III
+2026-05-28 20:24:05,183 | startup_jobs | INFO |   [ACCEPT] Software Engineer, Manufacturing Systems
+2026-05-28 20:24:05,202 | startup_jobs | INFO |   [ACCEPT] Software Engineer Level III, Memberships
+2026-05-28 20:24:05,220 | startup_jobs | INFO |   [ACCEPT] Software Engineer, Java (Identity Platform)
+2026-05-28 20:24:05,241 | startup_jobs | INFO |   [ACCEPT] Software Engineer II (Java)
+2026-05-28 20:24:05,262 | startup_jobs | INFO |   [ACCEPT] Software Engineer, Autonomous Systems
+2026-05-28 20:24:05,284 | startup_jobs | INFO |   [ACCEPT] Software Engineer, Modelling & Simulation
+2026-05-28 20:24:05,304 | startup_jobs | INFO |   [ACCEPT] Software Engineer, Android
+2026-05-28 20:24:05,323 | startup_jobs | INFO |   [ACCEPT] Software Engineer
+2026-05-28 20:24:05,343 | startup_jobs | INFO |   [ACCEPT] Software Engineer (SWE2)
+2026-05-28 20:24:05,366 | startup_jobs | INFO |   [ACCEPT] Software Engineer (Remote)
+2026-05-28 20:24:05,387 | startup_jobs | INFO |   [ACCEPT] Software Engineer, Backend
+2026-05-28 20:24:05,408 | startup_jobs | INFO |   [ACCEPT] Software Engineer III, Voice AI
+2026-05-28 20:24:05,426 | startup_jobs | INFO |   [ACCEPT] Software Engineer I
+2026-05-28 20:24:05,447 | startup_jobs | INFO |   [ACCEPT] Software Engineer II, Backend (Repayment UX)
+2026-05-28 20:24:05,466 | startup_jobs | INFO |   [ACCEPT] Software Engineer 3
+2026-05-28 20:24:05,484 | startup_jobs | INFO |   [ACCEPT] Software Engineer II - MES
+2026-05-28 20:24:05,503 | startup_jobs | INFO |   [ACCEPT] Software Engineer, Calibration
+2026-05-28 20:24:05,522 | startup_jobs | INFO |   [ACCEPT] Software Engineer (Crypto - SV) - US - 2026
+2026-05-28 20:24:05,540 | startup_jobs | INFO |   [ACCEPT] Software Engineer - Vector Index
+2026-05-28 20:24:05,559 | startup_jobs | INFO |   [ACCEPT] Software Engineer - Vector Index
+2026-05-28 20:24:05,560 | startup_jobs | INFO | Page summary: 45 found, 17 filtered, 28 accepted
+2026-05-28 20:24:05,560 | startup_jobs | INFO | Collected so far: 28 jobs
+2026-05-28 20:24:05,570 | startup_jobs | INFO | No more pages found
+2026-05-28 20:24:05,570 | startup_jobs | INFO | Final raw jobs count: 28
+2026-05-28 20:24:05,571 | startup_jobs | INFO | Enriching 28 jobs out of 28 raw jobs
+2026-05-28 20:24:07,024 | startup_jobs | INFO | Opened: https://startup.jobs/senior-full-stack-engineer-solace-6654883
+2026-05-28 20:24:07,077 | startup_jobs | INFO | Opened: https://startup.jobs/founding-full-stack-engineer-sailor-health-7153576
+2026-05-28 20:24:07,420 | startup_jobs | INFO | Opened: https://startup.jobs/founding-senior-full-stack-engineer-duler-7996530
+2026-05-28 20:24:08,558 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-devops-recent-graduate-hybrid-norcross-ga-usan-7998651
+2026-05-28 20:24:08,682 | startup_jobs | INFO | Opened: https://startup.jobs/principal-software-engineer-tripadvisor-7998480
+2026-05-28 20:24:08,928 | startup_jobs | INFO | Opened: https://startup.jobs/staff-software-engineer-magic-containers-bunnynet-7975977
+2026-05-28 20:24:09,957 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-c-minecraft-skybox-labs-7998726
+2026-05-28 20:24:10,161 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-iii-zinnia-7998852
+2026-05-28 20:24:10,777 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-manufacturing-systems-planetlabs-7999304
+2026-05-28 20:24:11,587 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-level-iii-memberships-crunchyroll-7999555
+2026-05-28 20:24:11,798 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-java-identity-platform-bitpanda-2-7999165
+2026-05-28 20:24:12,286 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-ii-java-jamf-7999513
+2026-05-28 20:24:12,788 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-autonomous-systems-auterion-7998271
+2026-05-28 20:24:13,235 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-modelling-simulation-auterion-7998272
+2026-05-28 20:24:13,560 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-android-phonepe-7997633
+2026-05-28 20:24:14,204 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-fay-7998246
+2026-05-28 20:24:14,300 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-swe2-interface-ai-7998260
+2026-05-28 20:24:14,957 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-remote-policyme-7998224
+2026-05-28 20:24:15,659 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-backend-finch-7996761
+2026-05-28 20:24:15,845 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-iii-voice-ai-natera-7996701
+2026-05-28 20:24:16,353 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-i-zenput-2-7996610
+2026-05-28 20:24:17,024 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-ii-backend-repayment-ux-affirm-2-7997195
+2026-05-28 20:24:17,341 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-3-sophos-7997219
+2026-05-28 20:24:17,723 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-ii-mes-rocket-lab-usa-7998030
+2026-05-28 20:24:18,442 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-calibration-woven-by-toyota-7996796
+2026-05-28 20:24:18,709 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-crypto-sv-us-2026-nubank-7997399
+2026-05-28 20:24:19,039 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-vector-index-neo4j-2-7997371
+2026-05-28 20:24:19,441 | startup_jobs | INFO | Opened: https://startup.jobs/software-engineer-vector-index-neo4j-2-7997370
+2026-05-28 20:24:19,532 | startup_jobs | INFO | Detailed jobs extracted: 28
+2026-05-28 20:24:19,533 | startup_jobs | INFO | Fetched 28 jobs for keyword: software engineer
+2026-05-28 20:24:19,533 | startup_jobs | INFO | Added: Founding Full-Stack Engineer
+2026-05-28 20:24:19,533 | startup_jobs | INFO | Added: Founding Senior Full Stack Engineer
+2026-05-28 20:24:19,533 | startup_jobs | INFO | Added: Senior Full Stack Engineer
+2026-05-28 20:24:19,534 | startup_jobs | INFO | Added: Principal Software Engineer
+2026-05-28 20:24:19,534 | startup_jobs | INFO | Added: Staff Software Engineer (Magic Containers)
+2026-05-28 20:24:19,534 | startup_jobs | INFO | Added: Software Engineer - DevOps - Recent Graduate - Hybrid - Norcross, GA
+2026-05-28 20:24:19,534 | startup_jobs | INFO | Added: Software Engineer (C++) | Minecraft
+2026-05-28 20:24:19,535 | startup_jobs | INFO | Added: Software Engineer III
+2026-05-28 20:24:19,535 | startup_jobs | INFO | Added: Software Engineer, Manufacturing Systems
+2026-05-28 20:24:19,535 | startup_jobs | INFO | Added: Software Engineer Level III, Memberships
+2026-05-28 20:24:19,535 | startup_jobs | INFO | Added: Software Engineer, Java (Identity Platform)
+2026-05-28 20:24:19,536 | startup_jobs | INFO | Added: Software Engineer II (Java)
+2026-05-28 20:24:19,536 | startup_jobs | INFO | Added: Software Engineer, Autonomous Systems
+2026-05-28 20:24:19,536 | startup_jobs | INFO | Added: Software Engineer, Modelling & Simulation
+2026-05-28 20:24:19,536 | startup_jobs | INFO | Added: Software Engineer, Android
+2026-05-28 20:24:19,536 | startup_jobs | INFO | Added: Software Engineer
+2026-05-28 20:24:19,537 | startup_jobs | INFO | Added: Software Engineer (SWE2)
+2026-05-28 20:24:19,537 | startup_jobs | INFO | Added: Software Engineer (Remote)
+2026-05-28 20:24:19,537 | startup_jobs | INFO | Added: Software Engineer, Backend
+2026-05-28 20:24:19,537 | startup_jobs | INFO | Added: Software Engineer III, Voice AI
+2026-05-28 20:24:19,538 | startup_jobs | INFO | Added: Software Engineer I
+2026-05-28 20:24:19,538 | startup_jobs | INFO | Added: Software Engineer II, Backend (Repayment UX)
+2026-05-28 20:24:19,538 | startup_jobs | INFO | Added: Software Engineer 3
+2026-05-28 20:24:19,539 | startup_jobs | INFO | Added: Software Engineer II - MES
+2026-05-28 20:24:19,539 | startup_jobs | INFO | Added: Software Engineer, Calibration
+2026-05-28 20:24:19,539 | startup_jobs | INFO | Added: Software Engineer (Crypto - SV) - US - 2026
+2026-05-28 20:24:19,540 | startup_jobs | INFO | Added: Software Engineer - Vector Index
+2026-05-28 20:24:19,540 | startup_jobs | INFO | Added: Software Engineer - Vector Index
+2026-05-28 20:24:19,540 | startup_jobs | INFO | Searching keyword: data engineer
+2026-05-28 20:24:20,524 | startup_jobs | INFO | Searching: data engineer
+2026-05-28 20:24:22,567 | startup_jobs | INFO | Found 45 cards on current page
+2026-05-28 20:24:22,584 | startup_jobs | INFO |   [FILTERED] Strategy & Operations Lead
+2026-05-28 20:24:22,638 | startup_jobs | INFO |   [FILTERED] Account Executive
+2026-05-28 20:24:22,673 | startup_jobs | INFO |   [FILTERED] Lead AI Engineer
+2026-05-28 20:24:22,691 | startup_jobs | INFO |   [FILTERED] Operations Specialist - Build Systems and Solve Problems at a Growing Manufacturer
+2026-05-28 20:24:22,708 | startup_jobs | INFO |   [FILTERED] Founding Engineer (with equity)
+2026-05-28 20:24:22,726 | startup_jobs | INFO |   [FILTERED] LEAD AI ENGINEER
+2026-05-28 20:24:22,743 | startup_jobs | INFO |   [FILTERED] Founding Engineer (With Equity)
+2026-05-28 20:24:22,762 | startup_jobs | INFO |   [FILTERED] Senior Customer Strategy & Operations Manager
+2026-05-28 20:24:22,779 | startup_jobs | INFO |   [FILTERED] Electrical Engineer, Compute Architecture
+2026-05-28 20:24:22,799 | startup_jobs | INFO |   [FILTERED] Manager, Customer Support
+2026-05-28 20:24:22,817 | startup_jobs | INFO |   [FILTERED] Design Systems Manager, Design Foundations & AI Transformation
+2026-05-28 20:24:22,835 | startup_jobs | INFO |   [FILTERED] Country Director, India
+2026-05-28 20:24:22,851 | startup_jobs | INFO |   [FILTERED] Executive Business Partner to CMOs
+2026-05-28 20:24:22,872 | startup_jobs | INFO |   [FILTERED] Sr. Manager, Large Customer Sales (Big Box Retail)
+2026-05-28 20:24:22,886 | startup_jobs | INFO |   [FILTERED] Field Solutions Engineer
+2026-05-28 20:24:22,917 | startup_jobs | INFO |   [FILTERED] Compliance Manager
+2026-05-28 20:24:22,934 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:22,951 | startup_jobs | INFO |   [ACCEPT] Data Engineer, Marketplace
+2026-05-28 20:24:22,969 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:22,989 | startup_jobs | INFO |   [ACCEPT] Data Engineer - Wrapped - Fixed Term
+2026-05-28 20:24:23,004 | startup_jobs | INFO |   [ACCEPT] Data Engineer- MS Fabric
+2026-05-28 20:24:23,019 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,037 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,056 | startup_jobs | INFO |   [ACCEPT] Data Engineer - Assistant Vice President
+2026-05-28 20:24:23,071 | startup_jobs | INFO |   [ACCEPT] Data Engineer II
+2026-05-28 20:24:23,089 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,107 | startup_jobs | INFO |   [ACCEPT] Data Engineer Senior – ETL & Python 2796
+2026-05-28 20:24:23,123 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,142 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,159 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,177 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,195 | startup_jobs | INFO |   [ACCEPT] Data Engineer II, FinOps
+2026-05-28 20:24:23,215 | startup_jobs | INFO |   [ACCEPT] Data Engineer (GTM)
+2026-05-28 20:24:23,233 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,250 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,270 | startup_jobs | INFO |   [ACCEPT] Data Engineer (Snowflake / Systems Integration)
+2026-05-28 20:24:23,290 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,309 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,327 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,342 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,359 | startup_jobs | INFO |   [ACCEPT] Data Engineer
+2026-05-28 20:24:23,360 | startup_jobs | INFO | Page summary: 41 found, 16 filtered, 25 accepted
+2026-05-28 20:24:23,360 | startup_jobs | INFO | Collected so far: 25 jobs
+2026-05-28 20:24:23,367 | startup_jobs | INFO | No more pages found
+2026-05-28 20:24:23,367 | startup_jobs | INFO | Final raw jobs count: 25
+2026-05-28 20:24:23,368 | startup_jobs | INFO | Enriching 25 jobs out of 25 raw jobs
+2026-05-28 20:24:24,584 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-caixa-magica-software-7997402
+2026-05-28 20:24:24,610 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-qode-7999241
+2026-05-28 20:24:24,878 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-marketplace-lyft-7997457
+2026-05-28 20:24:26,046 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-wrapped-fixed-term-spotify-7997281
+2026-05-28 20:24:26,281 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-ms-fabric-derevo-7996268
+2026-05-28 20:24:26,396 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-sleek-7996673
+2026-05-28 20:24:27,113 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-collibra-7995882
+2026-05-28 20:24:27,739 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-assistant-vice-president-icapital-network-7994681
+2026-05-28 20:24:27,900 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-ii-zeta-7994947
+2026-05-28 20:24:28,488 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-qode-7993724
+2026-05-28 20:24:29,219 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-senior-etl-python-2796-xideral-7991522
+2026-05-28 20:24:29,288 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-wildlife-studios-2-7992028
+2026-05-28 20:24:29,952 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-too-good-to-go-7990733
+2026-05-28 20:24:30,368 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-dunnhumby-7991632
+2026-05-28 20:24:30,908 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-homepage-405-7989225
+2026-05-28 20:24:31,391 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-ii-finops-boxhq-7990456
+2026-05-28 20:24:31,701 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-gtm-tractian-7989154
+2026-05-28 20:24:32,328 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-qode-7990857
+2026-05-28 20:24:32,780 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-wheelhouse-7987118
+2026-05-28 20:24:33,170 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-snowflake-systems-integration-getsquire-7989328
+2026-05-28 20:24:34,118 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-abbyy-7988377
+2026-05-28 20:24:34,521 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-viaduct-7986955
+2026-05-28 20:24:34,651 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-ofload-7988018
+2026-05-28 20:24:35,670 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-lxt-7985019
+2026-05-28 20:24:36,055 | startup_jobs | INFO | Opened: https://startup.jobs/data-engineer-ebury-7980753
+2026-05-28 20:24:36,163 | startup_jobs | INFO | Detailed jobs extracted: 25
+2026-05-28 20:24:36,163 | startup_jobs | INFO | Fetched 25 jobs for keyword: data engineer
+2026-05-28 20:24:36,163 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,164 | startup_jobs | INFO | Added: Data Engineer, Marketplace
+2026-05-28 20:24:36,164 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,164 | startup_jobs | INFO | Added: Data Engineer - Wrapped - Fixed Term
+2026-05-28 20:24:36,164 | startup_jobs | INFO | Added: Data Engineer- MS Fabric
+2026-05-28 20:24:36,165 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,165 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,165 | startup_jobs | INFO | Added: Data Engineer - Assistant Vice President
+2026-05-28 20:24:36,165 | startup_jobs | INFO | Added: Data Engineer II
+2026-05-28 20:24:36,166 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,166 | startup_jobs | INFO | Added: Data Engineer Senior – ETL & Python 2796
+2026-05-28 20:24:36,166 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,167 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,167 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,167 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,167 | startup_jobs | INFO | Added: Data Engineer II, FinOps
+2026-05-28 20:24:36,168 | startup_jobs | INFO | Added: Data Engineer (GTM)
+2026-05-28 20:24:36,168 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,168 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,170 | startup_jobs | INFO | Added: Data Engineer (Snowflake / Systems Integration)
+2026-05-28 20:24:36,171 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,171 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,171 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,172 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,173 | startup_jobs | INFO | Added: Data Engineer
+2026-05-28 20:24:36,174 | startup_jobs | INFO | Searching keyword: devops engineer
+2026-05-28 20:24:37,044 | startup_jobs | INFO | Searching: devops engineer
+2026-05-28 20:24:39,091 | startup_jobs | INFO | Found 45 cards on current page
+2026-05-28 20:24:39,112 | startup_jobs | INFO |   [FILTERED] Strategy & Operations Lead
+2026-05-28 20:24:39,162 | startup_jobs | INFO |   [FILTERED] Account Executive
+2026-05-28 20:24:39,196 | startup_jobs | INFO |   [FILTERED] Lead AI Engineer
+2026-05-28 20:24:39,212 | startup_jobs | INFO |   [FILTERED] Operations Specialist - Build Systems and Solve Problems at a Growing Manufacturer
+2026-05-28 20:24:39,228 | startup_jobs | INFO |   [FILTERED] Founding Engineer (with equity)
+2026-05-28 20:24:39,243 | startup_jobs | INFO |   [FILTERED] LEAD AI ENGINEER
+2026-05-28 20:24:39,259 | startup_jobs | INFO |   [FILTERED] Founding Engineer (With Equity)
+2026-05-28 20:24:39,275 | startup_jobs | INFO |   [FILTERED] Senior Customer Strategy & Operations Manager
+2026-05-28 20:24:39,289 | startup_jobs | INFO |   [FILTERED] Electrical Engineer, Compute Architecture
+2026-05-28 20:24:39,306 | startup_jobs | INFO |   [FILTERED] Manager, Customer Support
+2026-05-28 20:24:39,326 | startup_jobs | INFO |   [FILTERED] Design Systems Manager, Design Foundations & AI Transformation
+2026-05-28 20:24:39,349 | startup_jobs | INFO |   [FILTERED] Country Director, India
+2026-05-28 20:24:39,371 | startup_jobs | INFO |   [FILTERED] Executive Business Partner to CMOs
+2026-05-28 20:24:39,390 | startup_jobs | INFO |   [FILTERED] Sr. Manager, Large Customer Sales (Big Box Retail)
+2026-05-28 20:24:39,410 | startup_jobs | INFO |   [FILTERED] Field Solutions Engineer
+2026-05-28 20:24:39,461 | startup_jobs | INFO |   [FILTERED] Compliance Manager
+2026-05-28 20:24:39,488 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer - Remote friendly
+2026-05-28 20:24:39,513 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,536 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,559 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,582 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,604 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,625 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,647 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,669 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,687 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,707 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,729 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,751 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,771 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,792 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,812 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,835 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer
+2026-05-28 20:24:39,855 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer / SRE
+2026-05-28 20:24:39,875 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer / SRE
+2026-05-28 20:24:39,894 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer / SRE
+2026-05-28 20:24:39,913 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer / SRE
+2026-05-28 20:24:39,932 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer / SRE
+2026-05-28 20:24:39,953 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer / SRE
+2026-05-28 20:24:39,970 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer / SRE
+2026-05-28 20:24:39,991 | startup_jobs | INFO |   [ACCEPT] DevOps Engineer (Active Secret Clearance)
+2026-05-28 20:24:39,991 | startup_jobs | INFO | Page summary: 41 found, 16 filtered, 25 accepted
+2026-05-28 20:24:39,992 | startup_jobs | INFO | Collected so far: 25 jobs
+2026-05-28 20:24:40,003 | startup_jobs | INFO | No more pages found
+2026-05-28 20:24:40,004 | startup_jobs | INFO | Final raw jobs count: 25
+2026-05-28 20:24:40,004 | startup_jobs | INFO | Enriching 25 jobs out of 25 raw jobs
+2026-05-28 20:24:41,227 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-remote-friendly-emporix-7998277
+2026-05-28 20:24:41,548 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-ikh-7997746
+2026-05-28 20:24:41,564 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-anduril-industries-company-7997525
+2026-05-28 20:24:42,615 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-two-six-technologies-7991026
+2026-05-28 20:24:43,170 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-altaml-7990239
+2026-05-28 20:24:43,214 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-later-2-7989078
+2026-05-28 20:24:44,149 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-actian-corporation-7987280
+2026-05-28 20:24:44,461 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-vivawalletgr-7987416
+2026-05-28 20:24:44,759 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-restaurant365-7987243
+2026-05-28 20:24:45,865 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-myob-7985339
+2026-05-28 20:24:46,009 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-myob-7985340
+2026-05-28 20:24:46,473 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-onmed-7987608
+2026-05-28 20:24:47,586 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-natera-7983780
+2026-05-28 20:24:47,809 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-faro-health-inc-7983350
+2026-05-28 20:24:47,927 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-novibet-7983153
+2026-05-28 20:24:48,874 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-mediastream-7980828
+2026-05-28 20:24:49,189 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-eko-2-7980560
+2026-05-28 20:24:49,372 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-sre-fundraise-up-7965703
+2026-05-28 20:24:50,334 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-sre-fundraise-up-7965702
+2026-05-28 20:24:50,493 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-sre-fundraise-up-7965701
+2026-05-28 20:24:50,901 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-sre-fundraise-up-7965700
+2026-05-28 20:24:51,934 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-sre-fundraise-up-7965697
+2026-05-28 20:24:52,013 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-sre-fundraise-up-7965698
+2026-05-28 20:24:52,402 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-sre-fundraise-up-7965699
+2026-05-28 20:24:52,939 | startup_jobs | INFO | Opened: https://startup.jobs/devops-engineer-active-secret-clearance-striveworks-7967104
+2026-05-28 20:24:53,026 | startup_jobs | INFO | Detailed jobs extracted: 25
+2026-05-28 20:24:53,027 | startup_jobs | INFO | Fetched 25 jobs for keyword: devops engineer
+2026-05-28 20:24:53,027 | startup_jobs | INFO | Added: DevOps Engineer - Remote friendly
+2026-05-28 20:24:53,027 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,027 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,028 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,028 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,028 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,028 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,029 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,029 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,029 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,029 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,029 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,030 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,030 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,030 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,030 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,031 | startup_jobs | INFO | Added: DevOps Engineer
+2026-05-28 20:24:53,031 | startup_jobs | INFO | Added: DevOps Engineer / SRE
+2026-05-28 20:24:53,031 | startup_jobs | INFO | Added: DevOps Engineer / SRE
+2026-05-28 20:24:53,032 | startup_jobs | INFO | Added: DevOps Engineer / SRE
+2026-05-28 20:24:53,032 | startup_jobs | INFO | Added: DevOps Engineer / SRE
+2026-05-28 20:24:53,033 | startup_jobs | INFO | Added: DevOps Engineer / SRE
+2026-05-28 20:24:53,034 | startup_jobs | INFO | Added: DevOps Engineer / SRE
+2026-05-28 20:24:53,034 | startup_jobs | INFO | Added: DevOps Engineer / SRE
+2026-05-28 20:24:53,034 | startup_jobs | INFO | Added: DevOps Engineer (Active Secret Clearance)
+2026-05-28 20:24:53,035 | startup_jobs | INFO | Searching keyword: product manager
+2026-05-28 20:24:53,672 | startup_jobs | INFO | Searching: product manager
+2026-05-28 20:24:55,720 | startup_jobs | INFO | Found 45 cards on current page
+2026-05-28 20:24:55,743 | startup_jobs | INFO |   [FILTERED] Strategy & Operations Lead
+2026-05-28 20:24:55,815 | startup_jobs | INFO |   [FILTERED] Account Executive
+2026-05-28 20:24:55,848 | startup_jobs | INFO |   [FILTERED] Lead AI Engineer
+2026-05-28 20:24:55,868 | startup_jobs | INFO |   [FILTERED] Operations Specialist - Build Systems and Solve Problems at a Growing Manufacturer
+2026-05-28 20:24:55,889 | startup_jobs | INFO |   [FILTERED] Founding Engineer (with equity)
+2026-05-28 20:24:55,908 | startup_jobs | INFO |   [FILTERED] LEAD AI ENGINEER
+2026-05-28 20:24:55,927 | startup_jobs | INFO |   [FILTERED] Founding Engineer (With Equity)
+2026-05-28 20:24:55,946 | startup_jobs | INFO |   [FILTERED] Senior Customer Strategy & Operations Manager
+2026-05-28 20:24:55,965 | startup_jobs | INFO |   [FILTERED] Electrical Engineer, Compute Architecture
+2026-05-28 20:24:55,984 | startup_jobs | INFO |   [FILTERED] Manager, Customer Support
+2026-05-28 20:24:56,002 | startup_jobs | INFO |   [FILTERED] Design Systems Manager, Design Foundations & AI Transformation
+2026-05-28 20:24:56,023 | startup_jobs | INFO |   [FILTERED] Country Director, India
+2026-05-28 20:24:56,043 | startup_jobs | INFO |   [FILTERED] Executive Business Partner to CMOs
+2026-05-28 20:24:56,060 | startup_jobs | INFO |   [FILTERED] Sr. Manager, Large Customer Sales (Big Box Retail)
+2026-05-28 20:24:56,077 | startup_jobs | INFO |   [FILTERED] Field Solutions Engineer
+2026-05-28 20:24:56,114 | startup_jobs | INFO |   [FILTERED] Compliance Manager
+2026-05-28 20:24:56,130 | startup_jobs | INFO |   [ACCEPT] Product Manager - AI & Data Analytics
+2026-05-28 20:24:56,150 | startup_jobs | INFO |   [ACCEPT] Product Manager, Sportsbook
+2026-05-28 20:24:56,169 | startup_jobs | INFO |   [ACCEPT] Product Manager (HEMS)
+2026-05-28 20:24:56,192 | startup_jobs | INFO |   [ACCEPT] Product Manager (Core)
+2026-05-28 20:24:56,214 | startup_jobs | INFO |   [ACCEPT] Product Manager Pleno - Produto ADS | Tech
+2026-05-28 20:24:56,236 | startup_jobs | INFO |   [ACCEPT] Product Manager- Financial Crime Prevention
+2026-05-28 20:24:56,258 | startup_jobs | INFO |   [ACCEPT] Product Manager - Billing & Fees
+2026-05-28 20:24:56,279 | startup_jobs | INFO |   [ACCEPT] Product Manager
+2026-05-28 20:24:56,335 | startup_jobs | INFO |   [ACCEPT] Product Manager | Sênior (12835)
+2026-05-28 20:24:56,352 | startup_jobs | INFO |   [ACCEPT] Product Manager, Network
+2026-05-28 20:24:56,369 | startup_jobs | INFO |   [ACCEPT] Product Manager, Network
+2026-05-28 20:24:56,387 | startup_jobs | INFO |   [ACCEPT] Product Manager, Network
+2026-05-28 20:24:56,406 | startup_jobs | INFO |   [ACCEPT] Product Manager, Network
+2026-05-28 20:24:56,423 | startup_jobs | INFO |   [ACCEPT] Product Manager, Terminal Device Expansion
+2026-05-28 20:24:56,439 | startup_jobs | INFO |   [ACCEPT] Product Manager
+2026-05-28 20:24:56,455 | startup_jobs | INFO |   [ACCEPT] Product Manager, Brokerage
+2026-05-28 20:24:56,473 | startup_jobs | INFO |   [ACCEPT] Product Manager - Assistant Vice President
+2026-05-28 20:24:56,491 | startup_jobs | INFO |   [ACCEPT] Product Manager, Ecosystem
+2026-05-28 20:24:56,541 | startup_jobs | INFO |   [ACCEPT] Product Manager - Web Personalization
+2026-05-28 20:24:56,556 | startup_jobs | INFO |   [ACCEPT] Product Manager
+2026-05-28 20:24:56,573 | startup_jobs | INFO |   [ACCEPT] Product Manager
+2026-05-28 20:24:56,591 | startup_jobs | INFO |   [ACCEPT] Product Manager (Banking-as-a-Service) - Relocation to Cyprus
+2026-05-28 20:24:56,609 | startup_jobs | INFO |   [ACCEPT] Product Manager Júnior | RD Station (Remoto) (Remoto, Brasil)
+2026-05-28 20:24:56,627 | startup_jobs | INFO |   [ACCEPT] Product Manager, Mobile
+2026-05-28 20:24:56,644 | startup_jobs | INFO |   [ACCEPT] Product Manager MLops
+2026-05-28 20:24:56,645 | startup_jobs | INFO | Page summary: 41 found, 16 filtered, 25 accepted
+2026-05-28 20:24:56,645 | startup_jobs | INFO | Collected so far: 25 jobs
+2026-05-28 20:24:56,653 | startup_jobs | INFO | No more pages found
+2026-05-28 20:24:56,653 | startup_jobs | INFO | Final raw jobs count: 25
+2026-05-28 20:24:56,654 | startup_jobs | INFO | Enriching 25 jobs out of 25 raw jobs
+2026-05-28 20:24:57,686 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-hems-autarc-7998820
+2026-05-28 20:24:58,092 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-sportsbook-fanduel-7999200
+2026-05-28 20:24:58,220 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-ai-data-analytics-workwave-7999305
+2026-05-28 20:24:58,799 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-core-autarc-7998819
+2026-05-28 20:24:59,612 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-pleno-produto-ads-tech-ifood-7997859
+2026-05-28 20:24:59,933 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-financial-crime-prevention-ebury-7998375
+2026-05-28 20:25:00,310 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-billing-fees-bvnk-7998823
+2026-05-28 20:25:01,260 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-glance-2-7997189
+2026-05-28 20:25:01,340 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-senior-12835-sensedia-7996781
+2026-05-28 20:25:01,665 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-network-oscar-7997639
+2026-05-28 20:25:02,655 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-network-oscar-7997638
+2026-05-28 20:25:02,729 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-network-oscar-7997636
+2026-05-28 20:25:02,895 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-network-oscar-7997637
+2026-05-28 20:25:04,183 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-terminal-device-expansion-stripe-7998037
+2026-05-28 20:25:04,444 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-hudl-7997654
+2026-05-28 20:25:04,548 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-brokerage-robinhoodapp-7997816
+2026-05-28 20:25:05,339 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-assistant-vice-president-icapital-network-7997251
+2026-05-28 20:25:05,924 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-ecosystem-floqast-7996650
+2026-05-28 20:25:06,243 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-web-personalization-bloomreach-7998055
+2026-05-28 20:25:06,818 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-mind-foundry-7996399
+2026-05-28 20:25:07,316 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-spotio-7998549
+2026-05-28 20:25:07,777 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-banking-as-a-service-relocation-to-cyprus-payabl-7997013
+2026-05-28 20:25:08,281 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-junior-rd-station-remoto-remoto-brasil-rd-station-7996481
+2026-05-28 20:25:08,749 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-mobile-fireblocks-7996349
+2026-05-28 20:25:08,909 | startup_jobs | INFO | Opened: https://startup.jobs/product-manager-mlops-scaleway-7995824
+2026-05-28 20:25:09,005 | startup_jobs | INFO | Detailed jobs extracted: 25
+2026-05-28 20:25:09,005 | startup_jobs | INFO | Fetched 25 jobs for keyword: product manager
+2026-05-28 20:25:09,006 | startup_jobs | INFO | Added: Product Manager - AI & Data Analytics
+2026-05-28 20:25:09,006 | startup_jobs | INFO | Added: Product Manager, Sportsbook
+2026-05-28 20:25:09,007 | startup_jobs | INFO | Added: Product Manager (HEMS)
+2026-05-28 20:25:09,007 | startup_jobs | INFO | Added: Product Manager (Core)
+2026-05-28 20:25:09,007 | startup_jobs | INFO | Added: Product Manager Pleno - Produto ADS | Tech
+2026-05-28 20:25:09,007 | startup_jobs | INFO | Added: Product Manager- Financial Crime Prevention
+2026-05-28 20:25:09,008 | startup_jobs | INFO | Added: Product Manager - Billing & Fees
+2026-05-28 20:25:09,008 | startup_jobs | INFO | Added: Product Manager
+2026-05-28 20:25:09,008 | startup_jobs | INFO | Added: Product Manager | Sênior (12835)
+2026-05-28 20:25:09,008 | startup_jobs | INFO | Added: Product Manager, Network
+2026-05-28 20:25:09,009 | startup_jobs | INFO | Added: Product Manager, Network
+2026-05-28 20:25:09,009 | startup_jobs | INFO | Added: Product Manager, Network
+2026-05-28 20:25:09,009 | startup_jobs | INFO | Added: Product Manager, Network
+2026-05-28 20:25:09,010 | startup_jobs | INFO | Added: Product Manager, Terminal Device Expansion
+2026-05-28 20:25:09,010 | startup_jobs | INFO | Added: Product Manager
+2026-05-28 20:25:09,010 | startup_jobs | INFO | Added: Product Manager, Brokerage
+2026-05-28 20:25:09,011 | startup_jobs | INFO | Added: Product Manager - Assistant Vice President
+2026-05-28 20:25:09,011 | startup_jobs | INFO | Added: Product Manager, Ecosystem
+2026-05-28 20:25:09,014 | startup_jobs | INFO | Added: Product Manager - Web Personalization
+2026-05-28 20:25:09,015 | startup_jobs | INFO | Added: Product Manager
+2026-05-28 20:25:09,016 | startup_jobs | INFO | Added: Product Manager
+2026-05-28 20:25:09,017 | startup_jobs | INFO | Added: Product Manager (Banking-as-a-Service) - Relocation to Cyprus
+2026-05-28 20:25:09,018 | startup_jobs | INFO | Added: Product Manager Júnior | RD Station (Remoto) (Remoto, Brasil)
+2026-05-28 20:25:09,018 | startup_jobs | INFO | Added: Product Manager, Mobile
+2026-05-28 20:25:09,018 | startup_jobs | INFO | Added: Product Manager MLops
+2026-05-28 20:25:09,019 | startup_jobs | INFO | Saving 103 jobs
+2026-05-28 20:25:09,167 | startup_jobs | INFO | Cleaning up startup_jobs scraper

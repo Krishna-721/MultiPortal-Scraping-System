@@ -5,6 +5,7 @@ from scrapers.core.models.job_model import JOB_SCHEMA_COLUMNS
 from scrapers.core.utils.job_normalizer import (
     normalize_job_metadata,
 )
+from scrapers.core.config.settings import MAX_TOTAL_JOBS_PER_PORTAL
 
 
 class CSVStorage:
@@ -84,6 +85,14 @@ class CSVStorage:
             .fillna("")
             .reset_index(drop=True)
         )
+
+        # =========================
+        # ENFORCE HARD LIMIT
+        # =========================
+
+        if len(combined_df) > MAX_TOTAL_JOBS_PER_PORTAL:
+            combined_df = combined_df.tail(MAX_TOTAL_JOBS_PER_PORTAL)
+            print(f"Enforced limit: keeping last {MAX_TOTAL_JOBS_PER_PORTAL} jobs")
 
         # =========================
         # SAVE

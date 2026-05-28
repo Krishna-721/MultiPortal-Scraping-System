@@ -69,8 +69,11 @@ def is_relevant_job(title: str, keyword: str) -> bool:
     if _contains_blocked_term(normalized_title):
         return False
 
+    # Try exact keyword mapping first
     allowed = ALLOWED_MAPPINGS.get(normalized_keyword)
     if allowed:
-        return any(alias in normalized_title for alias in allowed)
+        match = any(alias in normalized_title for alias in allowed)
+        return match
 
+    # Fallback: simple substring match
     return normalized_keyword in normalized_title

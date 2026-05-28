@@ -75,6 +75,10 @@ class StartupJobsScraper(BaseScraper):
 
             self.logger.info(f"Found {len(job_cards)} cards on current page")
 
+            raw_titles_on_page = 0
+            filtered_count = 0
+            accepted_count = 0
+
             for card in job_cards:
                 if len(jobs) >= max_jobs:
                     break
@@ -98,8 +102,15 @@ class StartupJobsScraper(BaseScraper):
                     ):
                         continue
 
+                    raw_titles_on_page += 1
+
                     if not is_relevant_job(title, keyword):
+                        filtered_count += 1
+                        self.logger.info(f"  [FILTERED] {title}")
                         continue
+
+                    accepted_count += 1
+                    self.logger.info(f"  [ACCEPT] {title}")
 
                     seen_links.add(full_link)
 
@@ -114,6 +125,7 @@ class StartupJobsScraper(BaseScraper):
                 except Exception as e:
                     self.logger.error(f"Card parse failed: {e}")
 
+            self.logger.info(f"Page summary: {raw_titles_on_page} found, {filtered_count} filtered, {accepted_count} accepted")
             self.logger.info(f"Collected so far: {len(jobs)} jobs")
 
             if len(jobs) >= max_jobs:
