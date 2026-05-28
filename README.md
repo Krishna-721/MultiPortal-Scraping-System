@@ -75,7 +75,6 @@ Jobs are saved as CSV files in the `data/` directory with the following schema:
 | `location` | string | Job location |
 | `description` | string | Full job description |
 | `salary` | string | Salary range (if available) |
-| `equity` | string | Equity information (if available) |
 | `job_type` | string | Employment type (full-time, contract, etc.) |
 | `experience` | string | Experience level required |
 | `skills` | string | Required skills |
