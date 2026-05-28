@@ -1,7 +1,3 @@
-# Job Scraper System
-
-A production-hardened web scraping system for aggregating job listings from 8 major venture capital and startup job portals.
-
 ## Overview
 
 This scraper collects job postings from multiple sources, enriches them with additional details, applies relevance filtering, and outputs normalized data to CSV format.
@@ -15,17 +11,6 @@ This scraper collects job postings from multiple sources, enriches them with add
 - Sequoia (API)
 - Khosla (API)
 - General Catalyst (API)
-
-## Features
-
-- **Multi-source aggregation** — Collects from 8 major VC/startup job platforms
-- **Smart relevance filtering** — Filters out sales, marketing, and irrelevant roles
-- **Data enrichment** — Fetches additional job details via Playwright for select portals
-- **Schema validation** — Ensures consistent data structure across all sources
-- **Duplicate prevention** — Deduplicates jobs across portals
-- **Error resilience** — Handles timeouts, network errors, and parser failures gracefully
-- **CSV normalization** — Outputs consistent, deduplicated job data
-- **Production-safe** — Lightweight, no heavy dependencies; ready for integration
 
 ## Installation
 
@@ -60,45 +45,26 @@ Execute the master orchestrator:
 python master.py
 ```
 
-This sequentially runs all 8 scraper portals and outputs aggregated results to CSV files in the `data/` directory.
-
 ### Output
 
 Jobs are saved as CSV files in the `data/` directory with the following schema:
 
 | Column | Type | Description |
 |--------|------|-------------|
-| `job_id` | string | Unique job identifier |
 | `title` | string | Job title |
 | `company` | string | Company name |
-| `link` | string | URL to job posting |
 | `location` | string | Job location |
+| `link` | string | URL to job posting |
+| `link_hash` | string | Hash of link for deduplication |
+| `source` | string | Source portal |
 | `description` | string | Full job description |
-| `salary` | string | Salary range (if available) |
-| `equity` | string | Equity information (if available) |
-| `job_type` | string | Employment type (full-time, contract, etc.) |
-| `experience` | string | Experience level required |
-| `skills` | string | Required skills |
+| `salary_range` | string | Salary range (if available) |
+| `job_type` | string | Fulltime/Part time/Contract/etc |
 | `work_auth` | string | Work authorization requirements |
-| `portal` | string | Source portal |
-| `posted_date` | string | Job posting date |
-| `scraped_at` | datetime | When the job was scraped |
+| `employment_type` | string | Employment type (full-time, remote, hybrid, etc.) |
+| `job_status` | string | Active/Inactive/Expired/etc
+| `search_keyword` | string | Ex: Software Engineer
 
-### Relevance Filtering
-
-The system automatically filters out non-technical roles:
-
-**Blocked roles:**
-- Sales, Marketing, Designer, Recruiter
-- Support, Customer Support, Operations
-- Account Executive, Business Development
-- Finance, Legal, Compliance, HR
-
-**Allowed mappings:**
-- Software Engineer → backend, frontend, full stack, platform engineer
-- Data Engineer → analytics engineer, data platform, ETL engineer
-- DevOps Engineer → SRE, infrastructure engineer, platform engineer
-- Product Manager → product owner
 
 ## Architecture
 
@@ -125,7 +91,7 @@ scrapers/
 │   ├── sequoia_jobs/
 │   ├── khosla_jobs/
 │   └── general_catalyst/
-└── scrapers.py                    # Main scraper coordinator
+└── master.py                    # Main scraper coordinator
 ```
 
 ## Portal Details
@@ -172,52 +138,3 @@ scrapers/
 - **Idempotent:** Safe to re-run; duplicates are detected and skipped
 - **Stateless:** No persistent state required between runs
 - **Dependencies:** Only standard libraries + requests + pandas + playwright
-
-## Performance Metrics
-
-- **A16Z:** ~30-50 jobs/run (browser enrichment)
-- **Accel:** ~40-60 jobs/run (browser enrichment)
-- **Startup.jobs:** ~100-150 jobs/run (full DOM scraping)
-- **API Portals:** ~200-400 jobs/run (combined)
-
-**Total:** ~500-800 jobs per full run (depending on keyword relevance)
-
-## Troubleshooting
-
-### Playwright Issues
-```bash
-# Reinstall browsers if missing
-playwright install chromium
-```
-
-### CSV Not Updating
-- Check `data/` directory permissions
-- Verify sufficient disk space
-- Review console logs for validation errors
-
-### Slow Scraping
-- Monitor network latency to job portals
-- Reduce browser enrichment scope if needed
-- Check for rate limiting (503/429 responses in logs)
-
-### Missing Jobs
-- Verify keyword relevance (non-technical jobs are filtered)
-- Check if portal API is down (console logs will indicate)
-- Review validation logs for schema mismatches
-
-## Contributing
-
-When modifying scrapers:
-- Preserve CSV schema consistency
-- Add validation for new fields
-- Use relevance filters for job titles
-- Add timeout/error handling for network calls
-- Test with sample data before production use
-
-## License
-
-[Specify your license]
-
-## Contact
-
-For issues or questions about the scraper system, please open an issue in the repository.
